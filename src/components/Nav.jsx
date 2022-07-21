@@ -24,25 +24,25 @@ function Nav() {
               onClick={handleShowLinks}
               className="navbar_link slideInDown-1 "
             >
-              Accueil
+              About
             </button>
           </Link>
-          <Link to="/Animations">
+          <Link to="/portfolio">
             <button
               type="button"
               onClick={handleShowLinks}
               className="navbar_link slideInDown-3"
             >
-              Nos Animations
+              portfolio
             </button>
           </Link>
-          <Link to="/Request">
+          <Link to="/contact">
             <button
               type="button"
               onClick={handleShowLinks}
               className="navbar_link slideInDown-3 "
             >
-              Nos produits
+              contact
             </button>
           </Link>
          
