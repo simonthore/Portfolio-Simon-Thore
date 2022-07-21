@@ -1,0 +1,42 @@
+@media screen and (max-width: 767px) {
+  img {
+    width: 96px;
+    height: auto;
+    margin-left: 12px;
+  }
+}
+.cadre {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.childImg {
+  grid-area: 1 / 1 / 3 / 2;
+}
+.childText {
+  grid-area: 1 / 4 / 3 / 3;
+}
+.childText {
+  margin-top: 120px;
+}
+.presentation {
+  margin-bottom: 20px;
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+
+  font-size: 26px;
+}
+.subtitle {
+  font-family: "Montserrat", sans-serif;
+}
+.stacks {
+  margin-top: 36px;
+  margin-left: 130px;
+  margin-bottom: 20px;
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+}
